@@ -1,0 +1,133 @@
+/* Note to students: Some properties are given to you to fill out,
+others you can modify as they stand, and if you have time,
+there are definitely some properties you should add!*/
+
+    html {
+      height: 100%;
+    }
+    body {
+       height: 100%;
+       width: 100%;
+       margin: 0 auto;
+       font-family: sans-serif;
+    }
+
+    header {
+        background-color: green;
+        padding: 5px;
+        border: 10px solid #000000;
+        font-size: ;
+        display: block;
+
+    }
+    .test {
+      border-style:none;
+      border-radius: 100px;
+      border-color: black;
+      background-color: green;
+      font-size: 30px;
+      text-decoration: none;
+    }
+
+    h1 {
+      text-align: center;
+
+    }
+    nav {
+        float: center;
+        border: 10px solid black;
+    }
+    nav ul {
+        padding: 10px;
+        float: left;
+        border-bottom: 10px;
+        list-style-type: none;
+        margin-left: 38%;
+    }
+    nav li {
+        float: left;
+    align-items: center;
+    }
+    nav li a {
+        display: block;
+        height: 25px;
+        padding: 12px 18px 8px 18px;
+        vertical-align: middle;
+        float: center;
+          border-style:none;
+          border-radius: 100px;
+          border-color: black;
+          background-color: green;
+          font-size: 30px;
+          text-decoration: none;
+        text-align: center;
+        }
+    a {
+        color: ;
+    }
+    .hometext {
+      background-color: red;
+      border-right: 30px;
+    }
+    section {
+      width: 73%;
+      display: inline-block;
+      float: left;
+    }
+    .shitzu {  background-color: green;
+      padding: 10px;
+      border: 10px solid #000000;
+      font-size: 28px;
+      display: block;
+      align-items: center;
+      margin: 0 auto;
+      font-family: cursive;
+      animation: pulse 5s infinite;
+    }
+@keyframes pulse {
+  20% {
+    background-color: red;
+  }
+  20% {
+    background-color: orange;
+  }
+  20% {  background-color: yellow;
+}
+  20% {background-color: green;
+  }
+  20% {background-color: blue;}
+}
+.shitzu img {
+  width: 1000px;
+  margin: 40px 10px 10px 10px;
+
+  }
+  .locations {
+    padding: 10px;
+    border: 10px solid #000000;
+    font-size: 28px;
+    display: block;
+    align-items: center;
+    margin: 20%;
+    text-align: center;
+
+  }
+  .locations img {
+    width: 1000px;
+  }
+.hawks-prairie {
+  background-color: red;
+  width: 1000px;
+}
+.point-defiance {background-color: yellow;
+}
+.woodland-park {background-color: green;
+}
+
+    footer {
+        width: 790px;
+        background-color:;
+        color:;
+        clear: both;
+        display: block;
+    }
